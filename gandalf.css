@@ -1,0 +1,46 @@
+.carteGandalf {
+	position: relative;
+	margin: auto;
+	height: 572px;
+	width: 500px;
+	text-align: center;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	background : rgba(25, 25, 25, 0.2) url("images/integration_gandalf.png");
+	opacity: 0.7;
+}
+.texte {
+    font-weight: bold;
+    font-size: 3em;
+    background-color: white;
+    opacity: 1;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    transition-property: transform; scale;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+.money {
+	color: orange;
+}
+.titre {
+    font-size: 4em;
+    color: white;
+    margin-top: 90px;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+
+.carteGandalf:hover {
+	opacity: 1;
+}
+.carteGandalf:hover .titre {
+    transform: translateY(180px) scale(0.5, 0.5);
+}
+.carteGandalf:hover .texte {
+	transform: scale(0);
+}
