@@ -1,0 +1,22 @@
+[class*="col"] {
+	border: 1px solid white;
+}
+.bg-dark {
+	width: 3em;
+	height: 3em;
+}
+.orange {
+	background-color: orange;
+	width: 3em;
+	height: 3em;
+}
+.yellow {
+	background-color: yellow;
+	width: 3em;
+	height: 3em;
+}
+.black {
+	background-color: black;
+	width: 3em;
+	height: 3em;
+}
